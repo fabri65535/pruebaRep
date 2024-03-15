@@ -84,4 +84,11 @@ public class Date {
       return false;
     }
   }
+  public void Bisiesto() {
+	  if (year%4==0) {
+		  System.out.println("Es bisiesto");
+	  } else {
+		  System.out.println("No es bisiesto");
+	  }
+  }
 }
