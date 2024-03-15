@@ -19,6 +19,7 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
+  private final int hour;
 
   /**
    * Retrieves the day component of this date.
@@ -89,6 +90,7 @@ public class Date {
 		  System.out.println("Es bisiesto");
 	  } else {
 		  System.out.println("No es bisiesto");
-	  }
+	  }	 
+	  
   }
 }
